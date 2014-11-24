@@ -38,6 +38,7 @@
 
 .prodvijenieHeader p {
     text-indent: 20px;
+    font-size: 120%;
 }
 
 /***** END CHTO DAST PRODVIJENIE HEADER ********/
@@ -48,10 +49,14 @@
     padding: 0;
 }
 
+.prodvijenie2col ul {
+    display: table;
+}
+
 .prodvijenie2col li {
-    display: inline-block;
-    width: 47%;
-    vertical-align: top;
+    display: table-cell;
+    vertical-align: middle;
+
 }
 
 .chtoDastProvijenieList li {
@@ -81,11 +86,22 @@
 
 .chtoDastProvijenieListElementHeader {
     height: 2.5em;
+    margin-bottom: 1%;
+}
+
+.listLeftLi {
+    width: 55%;
+}
+
+.listRightLi {
+    width: 42%;
 }
 
 .notebook {
-    width: 100%;
+    width: 83%;
+    margin-left: 13%;
 }
+
 /*END CHTO DAST PRODVIJENIE*/
 
 /******** BEGIN  SERVICES ****/
