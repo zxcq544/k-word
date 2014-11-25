@@ -260,6 +260,37 @@
 
 /*END TARIF I CENY*/
 
+/********* BEGIN NAM DOVERAUT *********/
+
+.home_folio_box {
+    float: none !important;
+    height: 10%;
+}
+
+.home_folio_list {
+    width: 150px !important;
+    height: 150px !important;
+    display: inline-block;
+    margin-right: 9.2%;
+}
+
+.home_folio_list td {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.home_folio_box .human_id td span {
+
+    width: 150px !important;
+    padding: 0 0 !important;
+}
+
+.preview_picture {
+    width: 150px;
+    height: 150px;
+}
+/********* END NAM DOVERAUT *********/
+
 /*BEGIN 2 ORANGE BUTTONS IN CENTER*/
 .buttonsInCenter {
     margin-top: 5%;
@@ -277,14 +308,14 @@
 .buttonsInCenter1 {
     padding: 0.6% 1.1%;
 }
-
 /*END 2 ORANGE BUTTONS IN CENTER*/
 
 /*BEGIN FORMA ZAYAVKI*/
 
-.zayavka{
+.zayavka {
     margin-top: 7%;
 }
+
 .zayavkaForm {
     text-align: center;
 }
@@ -293,7 +324,7 @@
     list-style-type: none;
     text-align: left;
     vertical-align: top;
-    margin:0 7% 0 0;
+    margin: 0 7% 0 0;
 }
 
 .zayavkaForm li {
@@ -388,12 +419,10 @@
     top: 2px;
     box-shadow: 0px 0px 0px #c4c4c4;
 }
-
 /*END FORMA ZAYAVKI*/
 
 /******** BEGIN  SERVICES ****/
-
-.services{
+.services {
     margin-top: 7%;
 }
 
@@ -446,46 +475,11 @@
     top: 9%;
     left: 3%;
 }
-
 /********* END SERVICES ***********/
-
-/********* BEGIN NAM DOVERAUT *********/
-
-.home_folio_box {
-    float: none !important;
-    height: 10%;
-}
-
-.home_folio_list {
-    width: 150px !important;
-    height: 150px !important;
-    display: inline-block;
-    margin-right: 9.2%;
-}
-
-.home_folio_list td {
-    width: 150px !important;
-    height: 150px !important;
-}
-
-.home_folio_box .human_id td span {
-
-    width: 150px !important;
-    padding: 0 0 !important;
-}
-
-.preview_picture {
-    width: 150px;
-    height: 150px;
-}
-
-/********* END NAM DOVERAUT *********/
-
-
 
 /******** BEGIN FOOTER **********/
 
-footer{
+footer {
     margin-top: 7%;
 }
 
