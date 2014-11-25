@@ -223,7 +223,7 @@
     margin: 3% auto 1% auto;
 }
 
-.tarifPrice span{
+.tarifPrice span {
     display: table-cell;
     vertical-align: middle;
 }
@@ -259,6 +259,26 @@
 }
 
 /*END TARIF I CENY*/
+
+/*BEGIN 2 ORANGE BUTTONS IN CENTER*/
+.buttonsInCenter {
+    margin-top: 5%;
+}
+
+.buttonsInCenter a {
+    margin-right: 1.4%;
+    vertical-align: middle;
+}
+
+.buttonsInCenter img {
+    vertical-align: middle;
+}
+
+.buttonsInCenter1 {
+    padding: 0.6% 1.1%;
+}
+/*END 2 ORANGE BUTTONS IN CENTER*/
+
 
 /******** BEGIN  SERVICES ****/
 
@@ -317,7 +337,7 @@
 /********* BEGIN NAM DOVERAUT *********/
 
 .home_folio_box {
-    text-align: center;
+    float: none !important;
     height: 10%;
 }
 
