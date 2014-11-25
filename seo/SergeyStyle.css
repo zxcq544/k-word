@@ -45,7 +45,7 @@
 
 /*BEGIN CHTO DAST PRODVIJENIE LIST*/
 .chtoDastProdvijenie ul {
-    margin: 2.5% 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -105,18 +105,22 @@
 /*END CHTO DAST PRODVIJENIE*/
 
 /*BEGIN USPESHNIE POZICII NASHIH KLIENTOV*/
+.uspeshnyePozicii {
+    margin-top: 6%;
+}
+
 .uspeshnyePoziciiTable {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-.seoTableBlock{
+.seoTableBlock {
     display: inline-block;
-    width:45%;
+    width: 45%;
 }
 
-.seoTableBlockLeft{
+.seoTableBlockLeft {
     margin-right: 5%;
 }
 
@@ -125,15 +129,15 @@
     border-bottom: 1px solid lightgrey;
 }
 
-.noBorder{
- border-bottom: none !important;
+.noBorder {
+    border-bottom: none !important;
 }
 
-.seoFirstRow img{
+.seoFirstRow img {
     vertical-align: middle;
 }
 
-.seoFirstRow{
+.seoFirstRow {
     font-size: 111%;
 }
 
@@ -142,7 +146,7 @@
     margin-left: 10%;
 }
 
-.grey span{
+.grey span {
     margin-left: 2%;
 
 }
@@ -151,7 +155,7 @@
     background-color: #e6e6e6 !important;
 }
 
-.textBig{
+.textBig {
     font-size: 120%;
     font-weight: bold;
 }
@@ -169,10 +173,79 @@
     width: 38%;
 }
 
+/*END USPESHNIE POZICII NASHIH KLIENTOV*/
+
+/*BEGIN TARIFY I CENY*/
+
+.tarif {
+    margin-top: 6%;
+}
+
+.tarif ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tarif li {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin: 0 1% 15px 0;
+}
+
+.tarif span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.iconTarifLink2 {
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    top: -25%;
+    left: 3%;
+}
+
+.iconServices {
+    vertical-align: top;
+}
+
+.iconTarifLink3 {
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    top: -17%;
+    left: 3%;
+}
+
+.orangeButton {
+    background: #fa730e;
+    padding: 14px 14px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    border-radius: 5px;
+    font-size: 15px;
+    /* box-shadow: 2px 2px 2px grey; */
+    display: inline-block;
+}
+
+.orangeButton:hover {
+    background: #2763ac;
+    /*box-shadow: 2px 2px 2px grey;*/
+    cursor: pointer;
+
+}
+
+.orangeButton:active {
+    position: relative;
+    /*box-shadow: 2px 2px 2px grey;*/
+    top: 2px;
+}
+
 /******** BEGIN  SERVICES ****/
 
 .services ul {
-
     margin: 0;
     padding: 0;
 }
@@ -207,8 +280,8 @@
 
 .iconServiceLink1 {
     position: relative;
-    top: -10px;
-    left: 10px;
+    top: 10%;
+    left: 3%;
 }
 
 .iconServiceLink2 {
@@ -218,8 +291,8 @@
 
 .iconServiceLink3 {
     position: relative;
-    top: -5px;
-    left: 10px;
+    top: 9%;
+    left: 3%;
 }
 
 /********* END SERVICES ***********/
