@@ -104,6 +104,71 @@
 
 /*END CHTO DAST PRODVIJENIE*/
 
+/*BEGIN USPESHNIE POZICII NASHIH KLIENTOV*/
+.uspeshnyePoziciiTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.seoTableBlock{
+    display: inline-block;
+    width:45%;
+}
+
+.seoTableBlockLeft{
+    margin-right: 5%;
+}
+
+.uspeshnyePoziciiTable tr {
+    height: 46px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.noBorder{
+ border-bottom: none !important;
+}
+
+.seoFirstRow img{
+    vertical-align: middle;
+}
+
+.seoFirstRow{
+    font-size: 111%;
+}
+
+.grey {
+    background-color: #ececec;
+    margin-left: 10%;
+}
+
+.grey span{
+    margin-left: 2%;
+
+}
+
+.pink {
+    background-color: #e6e6e6 !important;
+}
+
+.textBig{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.leftCol {
+    text-align: left;
+    font-size: 120%;
+}
+
+.rightCol {
+    text-align: center;
+    background-color: #ececec;
+    font-size: 125%;
+    font-weight: bold;
+    width: 38%;
+}
+
 /******** BEGIN  SERVICES ****/
 
 .services ul {
