@@ -218,6 +218,21 @@
     left: 3%;
 }
 
+.tarifPrice {
+    display: table;
+    margin: 3% auto 1% auto;
+}
+
+.tarifPrice span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bigText {
+    font-weight: bold;
+    font-size: 120%;
+}
+
 .orangeButton {
     background: #fa730e;
     padding: 14px 14px;
@@ -242,6 +257,8 @@
     /*box-shadow: 2px 2px 2px grey;*/
     top: 2px;
 }
+
+/*END TARIF I CENY*/
 
 /******** BEGIN  SERVICES ****/
 
