@@ -44,8 +44,13 @@
 /*END CHTO DAST RAZRABOTKA SAITA*/
 
 /*BEGIN VARIANTY SAITA*/
+.variantySaita{
+    margin-top: 6vw;
+}
+
 .variantTable {
     border-collapse: collapse;
+    margin-top: 2vw;
 }
 
 .variantTable th {
@@ -101,6 +106,12 @@
 .iconOk {
     width: 2.2vw;
 }
+
+.iconNo{
+    width: 2.5vw;
+}
+
+
 
 /*END VARIANTY SAITA*/
 
