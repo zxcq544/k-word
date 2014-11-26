@@ -51,16 +51,30 @@
 .variantTable th {
     font-size: 1.5vw;
     font-weight: bold;
-    background-color: #ececec;
     padding: 1.5vw 1vw;
 }
 
+
+
 .variantTable td{
     text-align: center;
+    padding: 1vw;
+    border-bottom: 1px solid lightgrey;
+    font-size: 1.2vw;
 }
+
+.bigText{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
 
 .tdleft{
     text-align: left !important;
+}
+
+.tableGrey{
+    background-color: #ececec;
 }
 
 .grey{
