@@ -39,6 +39,31 @@
 
 /**********  MAIN PAGE  *************/
 
+.orangeButton {
+    background: #fa730e;
+    padding: 0.9vw 0.9vw;;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    border-radius: 5px;
+    font-size: 15px;
+    /* box-shadow: 2px 2px 2px grey; */
+    display: inline-block;
+}
+
+.orangeButton:hover {
+    background: #2763ac;
+    /*box-shadow: 2px 2px 2px grey;*/
+    cursor: pointer;
+
+}
+
+.orangeButton:active {
+    position: relative;
+    /*box-shadow: 2px 2px 2px grey;*/
+    top: 2px;
+}
+
 /*BEGIN PODDERJKA SAITA 24 CHASA*/
 .podderjkaHeader {
     margin-bottom: 5vw;
@@ -103,8 +128,10 @@
 }
 
 .bigText {
-    font-size: 1.5vw;
+    font-size: 1.5vw !important;
     font-weight: bold;
+    display: block;
+    margin-bottom: 0.5vw;
 }
 
 .tdleft {
