@@ -376,7 +376,7 @@
     letter-spacing: 10em; /* IE 9 fix */
     -ms-transform: scale(20); /* IE 9 fix */
     opacity: 0;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .inputFileFormats {
@@ -417,7 +417,7 @@
 .orangeButtonWhiteBorder:active {
     position: relative;
     top: 2px;
-    box-shadow: 0px 0px 0px #c4c4c4;
+    box-shadow: 0 0 0 #c4c4c4;
 }
 /*END FORMA ZAYAVKI*/
 
