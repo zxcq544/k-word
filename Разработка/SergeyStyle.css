@@ -49,16 +49,29 @@
 }
 
 .variantTable th {
-    font-size: 1.5vw;
+    font-size: 1.15vw;
     font-weight: bold;
-    padding: 1.5vw 1vw;
+    padding: 0.7vw 0;
+    width: 12vw;
+    line-height: 1.5vw;
+
 }
 
 
+.empty{
+
+    width: 2vw !important;
+}
+
+.firstCell{
+    width: 27vw !important;
+    text-align: left;
+    padding-left: 2vw !important;
+}
 
 .variantTable td{
     text-align: center;
-    padding: 1vw;
+    padding: 1vw 0;
     border-bottom: 1px solid lightgrey;
     font-size: 1.2vw;
 }
@@ -81,9 +94,13 @@
     background-color: #e6e6e6 !important;
 }
 
+.iconOk{
+    width: 2.2vw;
+}
 
 
-/*EN VARIANTY SAITA*/
+
+/*END VARIANTY SAITA*/
 
 /********** BEGIN PORTFOLIO  *************/
 .mainPagePortfolio {
