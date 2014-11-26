@@ -44,7 +44,7 @@
 /*END CHTO DAST RAZRABOTKA SAITA*/
 
 /*BEGIN VARIANTY SAITA*/
-.variantTable{
+.variantTable {
     border-collapse: collapse;
 }
 
@@ -57,48 +57,50 @@
 
 }
 
-
-.empty{
+.empty {
 
     width: 2vw !important;
 }
 
-.firstCell{
+.firstCell {
     width: 27vw !important;
     text-align: left;
     padding-left: 2vw !important;
 }
 
-.variantTable td{
+.variantTable td {
     text-align: center;
     padding: 1vw 0;
     border-bottom: 1px solid lightgrey;
     font-size: 1.2vw;
 }
 
-.bigText{
+.bigText {
     font-size: 1.5vw;
     font-weight: bold;
 }
 
-
-.tdleft{
+.tdleft {
     text-align: left !important;
 }
 
-.tableGrey{
+.tdCorp {
+    text-align: left !important;
+    padding-left: 0.5vw !important;
+    width: 11vw !important;
+}
+
+.tableGrey {
     background-color: #ececec;
 }
 
-.grey{
+.grey {
     background-color: #e6e6e6 !important;
 }
 
-.iconOk{
+.iconOk {
     width: 2.2vw;
 }
-
-
 
 /*END VARIANTY SAITA*/
 
