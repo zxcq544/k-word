@@ -29,92 +29,265 @@
     display: inline-block;
 }
 
+.table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
 /**********  MAIN PAGE  *************/
 
-/********** BEGIN PORTFOLIO  *************/
-.mainPagePortfolio {
-
+/*BEGIN PODDERJKA SAITA 24 CHASA*/
+.podderjkaHeader {
+    margin-bottom: 5vw;
 }
 
-.mainPagePortfolio ul {
-    vertical-align: top;
-    list-style: none;
-    margin-bottom: 5px;
-    padding: 0;
+.podderjkaHeader p {
+    text-indent: 2vw;
+    font-size: 1.2vw;
 }
 
-.mainPagePortfolio li {
-    width: 19%;
+.podderjkaHeaderLeft {
+    vertical-align: middle;
+    width: 65vw;
+}
+
+.podderjkaHeaderRight {
+    width: 27vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.podderjkaHeaderRight img {
+    width: 13.7vw;
+}
+
+/*END PODDERJKA SAITA 24 CHASA*/
+
+/*BEGIN TARIFY I CENY*/
+.tarif {
+    margin-top: 6vw;
+}
+
+.tarifTable {
+    border-collapse: collapse;
+    margin-top: 2vw;
+}
+
+.tarifTable th {
+    font-size: 1.15vw;
+    font-weight: bold;
+    padding: 1.3vw 0;
+    width: 14vw;
+    line-height: 1.5vw;
+}
+
+.empty {
+
+    width: 2vw !important;
+}
+
+.firstCell {
+    width: 27vw !important;
+    text-align: left;
+    padding-left: 2vw !important;
+}
+
+.tarifTable td {
+    text-align: center;
+    padding: 1vw 0;
+    border-bottom: 1px solid lightgrey;
+    font-size: 1.2vw;
+}
+
+.bigText {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.tdleft {
+    text-align: left !important;
+}
+
+.tdCorp {
+    text-align: left !important;
+    padding-left: 0.5vw !important;
+    width: 11vw !important;
+}
+
+.tableGrey {
+    background-color: #ececec;
+}
+
+.grey {
+    background-color: #e6e6e6 !important;
+}
+
+.iconOk {
+    width: 2.2vw;
+}
+
+.iconNo {
+    width: 2.5vw;
+}
+
+/*END TARIFY I CENY*/
+
+/********* BEGIN NAM DOVERAUT *********/
+
+.namDoverayut {
+    margin-top: 7vw;
+}
+
+.home_folio_box {
+    float: none !important;
+    height: 10%;
+}
+
+.home_folio_list {
+    width: 150px !important;
+    height: 150px !important;
     display: inline-block;
+    margin-right: 9.2%;
+}
+
+.home_folio_list td {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.home_folio_box .human_id td span {
+
+    width: 150px !important;
+    padding: 0 0 !important;
+}
+
+.preview_picture {
+    width: 150px;
+    height: 150px;
+}
+
+/********* END NAM DOVERAUT *********/
+
+/*BEGIN FORMA ZAYAVKI*/
+
+.zayavka {
+    margin-top: 7%;
+}
+
+.zayavkaForm {
+    text-align: center;
+}
+
+.zayavkaForm ul {
+    list-style-type: none;
     text-align: left;
     vertical-align: top;
-    list-style: none;
-    margin: 0 5% 20px 0;
+    margin: 0 7% 0 0;
 }
 
-.mainPagePortfolio img {
-    width: 100%;
-
+.zayavkaForm li {
+    margin-top: 16px;
+    vertical-align: top;
 }
 
-.mainPagePortfolio h4 {
-    margin: 10px 0;
-}
-
-.mainPagePortfolio li > a {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 84%;
-}
-
-.portfolioTag img {
-    height: 16px;
-    width: inherit;
-    position: relative;
-    top: 2px;
-}
-
-.portfolioTag > span {
-    margin-right: 10px;
-    font-size: 87%;
-}
-
-.orangeButton {
-    background: #fa730e;
-    padding: 14px 14px;
-    color: white !important;
-    font-weight: bold;
-    text-decoration: none !important;
+.zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
+    padding: 10px 0 10px 10px;
     border-radius: 5px;
-    font-size: 15px;
-    /* box-shadow: 2px 2px 2px grey; */
-    display: inline-block;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    width: 320px;
+    background-color: white;
 }
 
-.orangeButton:hover {
-    background: #2763ac;
-    /*box-shadow: 2px 2px 2px grey;*/
-    cursor: pointer;
-
+.zayavkaForm select {
+    width: 330px; /*width+ padding-left */
 }
 
-.orangeButton:active {
+.file_upload {
+    margin-top: 1em;
     position: relative;
-    /*box-shadow: 2px 2px 2px grey;*/
+    overflow: hidden;
+    font-size: 1em; /* example */
+    height: 2em; /* example */
+    line-height: 2em; /* the same as height */
+    text-align: center;
+}
+
+.file_upload > button {
+    width: 14em;
+    height: 2em;
+    font-size: 16px;
+}
+
+.file_upload > div {
+    padding-left: 1em /* example */
+}
+
+.file_upload input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(20);
+    letter-spacing: 10em; /* IE 9 fix */
+    -ms-transform: scale(20); /* IE 9 fix */
+    opacity: 0;
+    cursor: pointer;
+}
+
+.inputFileFormats {
+    margin: 20px 0 40px 10px;
+}
+
+.labelForInput {
+    display: block;
+    font-family: Open-Sans, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.orangeButtonWhiteBorder {
+    margin-top: 30px;
+    padding: 16px !important;
+    background-color: #ef8b00 !important;
+    color: white;
+    font-weight: bold;
+    width: initial !important;
+    border: 2px solid white !important;
+    border-radius: 5px !important;
+    box-shadow: 2px 2px 3px #c4c4c4;
+    font-size: 14px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+.orangeButtonWhiteBorder:hover {
+    background-color: orange !important;
+}
+
+.orangeButtonWhiteBorder:active {
+    position: relative;
     top: 2px;
+    box-shadow: 0 0 0 #c4c4c4;
 }
 
-.mainPagePortfolio a {
-    display: inline-block;
-}
-
-.goToPortfolio {
-    margin: 0 0 20px 0;
-}
-
-/***** END PORTFOLIO ********/
+/*END FORMA ZAYAVKI*/
 
 /******** BEGIN  SERVICES ****/
+
+.services {
+    margin-top: 6vw;
+}
 
 .services ul {
 
@@ -169,38 +342,6 @@
 
 /********* END SERVICES ***********/
 
-/********* BEGIN NAM DOVERAUT *********/
-
-.home_folio_box {
-    text-align: center;
-    height: 10%;
-}
-
-.home_folio_list {
-    width: 150px !important;
-    height: 150px !important;
-    display: inline-block;
-    margin-right: 9.2%;
-}
-
-.home_folio_list td {
-    width: 150px !important;
-    height: 150px !important;
-}
-
-.home_folio_box .human_id td span {
-
-    width: 150px !important;
-    padding: 0 0 !important;
-}
-
-.preview_picture {
-    width: 150px;
-    height: 150px;
-}
-
-/********* END NAM DOVERAUT *********/
-
 /********* BEGIN OUR BLOG *********/
 
 .blog ul {
@@ -240,6 +381,10 @@
 /********* END OUR BLOG *********/
 
 /******** BEGIN FOOTER **********/
+
+footer {
+    margin-top: 6vw;
+}
 
 footer ul {
     vertical-align: top;
