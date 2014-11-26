@@ -31,8 +31,6 @@
 
 /**********  MAIN PAGE  *************/
 
-
-
 /*BEGIN CHTO DAST RAZRABOTKA SAITA*/
 .razrabotkaHeader {
     margin-bottom: 5vw;
@@ -42,6 +40,36 @@
     text-indent: 2vw;
     font-size: 1.2vw;
 }
+
+/*END CHTO DAST RAZRABOTKA SAITA*/
+
+/*BEGIN VARIANTY SAITA*/
+.variantTable{
+    border-collapse: collapse;
+}
+
+.variantTable th {
+    font-size: 1.5vw;
+    font-weight: bold;
+    background-color: #ececec;
+    padding: 1.5vw 1vw;
+}
+
+.variantTable td{
+    text-align: center;
+}
+
+.tdleft{
+    text-align: left !important;
+}
+
+.grey{
+    background-color: #e6e6e6 !important;
+}
+
+
+
+/*EN VARIANTY SAITA*/
 
 /********** BEGIN PORTFOLIO  *************/
 .mainPagePortfolio {
