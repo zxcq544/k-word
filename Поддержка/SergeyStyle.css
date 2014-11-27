@@ -164,10 +164,9 @@
 
 /*BEGIN ABOUT US*/
 
-.aboutUs{
+.aboutUs {
     margin-top: 7vw;
 }
-
 
 /********* BEGIN NAM DOVERAUT *********/
 
@@ -473,76 +472,102 @@ footer {
     width: 43px;
 }
 
+.hideOnDesktop {
+    display: none;
+}
+
 /****** MOBILE 768 *******/
 
 @media (max-width: 768px) {
 
-    /**** BEGIN MOBILE PORTFOLIO  *****/
-    .mainPagePortfolio ul {
-        vertical-align: top;
-        list-style: none;
-        margin-bottom: 5px;
-        padding: 0;
+    .wrap_box {
+        display: block;
+        margin: 0;
     }
 
-    .mainPagePortfolio li {
-        width: 38%;
-        display: inline-block;
-        text-align: left;
-        vertical-align: top;
-        list-style: none;
-        margin: 0 20px 20px 20px;
-    }
-
-    /* END MOBILE PORTFOLIO */
-    /* BEGIN MOBILE SERVICES */
-    .services li {
-        display: inline-block;
-        vertical-align: top;
+    /*BEGIN MOBILE PODDERJKA SAITA 24 CHASA*/
+    .podderjka {
         width: 100%;
-        margin: 0 0 10% 0;
+        text-align: center;
     }
 
-    .services span {
-        margin-top: 1%;
-        font-size: 119%;
-        line-height: 180%;
+    .podderjkaHeader {
+        margin-bottom: 5vw;
+    }
+
+    .podderjkaHeader h1 {
+        font-size: 2em !important;
+        text-align: center;
+    }
+
+    .mobileImgCenter {
+        width: 20vw !important;
+    }
+
+    .podderjkaHeader p {
+        text-indent: 2vw;
+        font-size: 1em;
         text-align: justify;
     }
 
-    /* END MOBILE SERVICES */
-    /*BEGIN MOBILE NAM DOVERAYUT*/
-    /*BEGIN MOBILE BLOG*/
-    .blog li {
-        vertical-align: top;
-        display: inline-block;
+    .podderjkaHeaderLeft {
+        display: block;
         width: 100%;
-        margin-right: 0;
-        margin-bottom: 30px;
+        text-align: center;
     }
 
-    /*END MOBILE BLOG*/
-
-}
-
-@media (max-width: 930px) {
-    .iconServiceLink1 {
-        font-size: 90%;
-    }
-
-    .iconServiceLink2 {
-        font-size: 90%;
-    }
-
-    .iconServiceLink3 {
-        font-size: 90%;
-    }
-
-}
-
-/*HIDE LAST ELEMENT FROM NAM DOVERAYUT*/
-@media (max-width: 1023px) {
-    .hideOnMobile:last-child {
+    .podderjkaHeaderRight {
         display: none;
     }
+
+    /*END MOBILE PODDERJKA SAITA 24 CHASA*/
+
+    /*BEGIN TARIFY I CENY*/
+    .orangeButton {
+        background: #fa730e;
+        padding: 0.1vw 0.9vw;;
+        color: white !important;
+        font-weight: bold;
+        text-decoration: none !important;
+        border-radius: 5px;
+        font-size: 2vw;
+        /* box-shadow: 2px 2px 2px grey; */
+        display: inline-block;
+    }
+
+    .orangeButton:hover {
+        background: #2763ac;
+        /*box-shadow: 2px 2px 2px grey;*/
+        cursor: pointer;
+
+    }
+
+    .orangeButton:active {
+        position: relative;
+        /*box-shadow: 2px 2px 2px grey;*/
+        top: 2px;
+    }
+
+    /*END TARIFY I CENY*/
+
+
+    /*BEGIN MOBILE NAM DOVERAYUT*/
+    .namDoverayut{
+        text-align: center !important;
+    }
+
+    .home_folio_list{
+        float: none !important;
+    }
+
+
+
+    .hideOnDesktop {
+        display: block;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
 }
