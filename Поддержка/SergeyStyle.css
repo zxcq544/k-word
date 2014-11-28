@@ -560,6 +560,49 @@ footer {
         float: none !important;
     }
 
+    /* END MOBILE NAM DOVERAUT*/
+
+    /*BEGIN ZAYAVKA FORM*/
+    .zayavkaForm ul {
+        padding: 0;
+    }
+
+    .zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
+        width: 100%;
+    }
+
+    .zayavkaForm select {
+        width: 88%; /*width+ padding-left */
+    }
+
+    /*END ZAYAVKA FORM*/
+
+    /* BEGIN MOBILE SERVICES */
+    .services li {
+        display: inline-block;
+        vertical-align: top;
+        width: 98%;
+        margin: 0 0 10% 0;
+    }
+
+    .services span {
+        margin-top: 1%;
+        font-size: 100%;
+        line-height: 100%;
+        text-align: justify;
+    }
+
+    /* END MOBILE SERVICES */
+
+    .orangeButton {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    footer li {
+        width: 100%;
+    }
+
 
 
     .hideOnDesktop {
