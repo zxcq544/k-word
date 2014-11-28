@@ -43,6 +43,10 @@
 
 /***** END CHTO DAST PRODVIJENIE HEADER ********/
 
+.wrap_box {
+    display: block;
+}
+
 /*BEGIN CHTO DAST PRODVIJENIE LIST*/
 .chtoDastProdvijenie ul {
     margin: 0;
@@ -289,6 +293,7 @@
     width: 150px;
     height: 150px;
 }
+
 /********* END NAM DOVERAUT *********/
 
 /*BEGIN 2 ORANGE BUTTONS IN CENTER*/
@@ -308,6 +313,7 @@
 .buttonsInCenter1 {
     padding: 0.6% 1.1%;
 }
+
 /*END 2 ORANGE BUTTONS IN CENTER*/
 
 /*BEGIN FORMA ZAYAVKI*/
@@ -419,6 +425,7 @@
     top: 2px;
     box-shadow: 0 0 0 #c4c4c4;
 }
+
 /*END FORMA ZAYAVKI*/
 
 /******** BEGIN  SERVICES ****/
@@ -475,6 +482,7 @@
     top: 9%;
     left: 3%;
 }
+
 /********* END SERVICES ***********/
 
 /******** BEGIN FOOTER **********/
@@ -562,19 +570,18 @@ footer {
     .services li {
         display: inline-block;
         vertical-align: top;
-        width: 100%;
+        width: 98%;
         margin: 0 0 10% 0;
     }
 
     .services span {
         margin-top: 1%;
-        font-size: 119%;
-        line-height: 180%;
+        font-size: 100%;
+        line-height: 100%;
         text-align: justify;
     }
 
     /* END MOBILE SERVICES */
-    /*BEGIN MOBILE NAM DOVERAYUT*/
     /*BEGIN MOBILE BLOG*/
     .blog li {
         vertical-align: top;
@@ -585,6 +592,81 @@ footer {
     }
 
     /*END MOBILE BLOG*/
+    .hideOnMobile {
+        display: none;
+
+    }
+
+    /*BEGIN MOBILE USPESHNIE POZICII NASHIH KLIENTOV*/
+    .seoTableBlock {
+        width: 100%;
+    }
+
+    .seoTableBlockLeft {
+        margin-right: 0;
+    }
+
+    /*END MOBILE USPESHNIE POZICII NASHIH KLIENTOV*/
+    /*BEGIN MOBILE TARIFY I CENY*/
+    .tarif li {
+        width: 98%;
+    }
+
+    .iconTarifLink2 {
+        top: 0;
+    }
+
+    .iconTarifLink3 {
+        top: 8%;
+    }
+
+    .orangeButton {
+        padding: 10px 10px;
+    }
+
+    /*END TARIF I CENY*/
+    /*BEGIN 2 ORANGE BUTTONS IN CENTER*/
+    .buttonsInCenter1 {
+        padding: 0.6% 1.1%;
+        width: 97%;
+        margin: 0 0 20px 0;
+    }
+
+    .buttonsInCenter2 {
+        padding: 2.2% 4.4%;
+        width: 90%;
+        margin: 0 0 20px 0;
+    }
+
+    /*END 2 ORANGE BUTTONS IN CENTER*/
+    /*BEGIN CHTO DAST PRODVIJENIE LIST*/
+    .chtoDastProvijenieList h3 {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 100% !important;
+        width: 85%;
+        vertical-align: middle;
+        margin: 0 0 0 2% !important;
+    }
+
+    /*END CHTO DAST PRODVIJENIE*/
+    /*BEGIN ZAYAVKA FORM*/
+    .zayavkaForm ul {
+        padding: 0;
+    }
+
+    .zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
+        width: 100%;
+    }
+
+    .zayavkaForm select {
+        width: 88%; /*width+ padding-left */
+    }
+
+    /*END ZAYAVKA FORM*/
+    footer li {
+        width: 100%;
+    }
 
 }
 
