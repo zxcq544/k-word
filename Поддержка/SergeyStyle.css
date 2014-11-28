@@ -521,7 +521,6 @@ footer {
     }
 
     /*END MOBILE PODDERJKA SAITA 24 CHASA*/
-
     /*BEGIN TARIFY I CENY*/
     .orangeButton {
         background: #fa730e;
@@ -549,68 +548,73 @@ footer {
     }
 
     /*END TARIFY I CENY*/
-
-
     /*BEGIN MOBILE NAM DOVERAYUT*/
-    .namDoverayut{
+    .namDoverayut {
         text-align: center !important;
     }
 
-    .home_folio_list{
-        float: none !important;
-    }
-
-    /* END MOBILE NAM DOVERAUT*/
-
-    /*BEGIN ZAYAVKA FORM*/
-    .zayavkaForm ul {
-        padding: 0;
-    }
-
-    .zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
-        width: 100%;
-    }
-
-    .zayavkaForm select {
-        width: 88%; /*width+ padding-left */
-    }
-
-    /*END ZAYAVKA FORM*/
-
-    /* BEGIN MOBILE SERVICES */
-    .services li {
-        display: inline-block;
-        vertical-align: top;
-        width: 98%;
-        margin: 0 0 10% 0;
-    }
-
-    .services span {
-        margin-top: 1%;
-        font-size: 100%;
-        line-height: 100%;
-        text-align: justify;
-    }
-
-    /* END MOBILE SERVICES */
-
-    .orangeButton {
-        padding: 10px 10px;
-        font-size: 14px;
-    }
-
-    footer li {
-        width: 100%;
-    }
-
-
-
-    .hideOnDesktop {
+    .home_folio_box {
+        overflow: hidden;
         display: block;
+        float: none !important;
+        height: inherit;
+        width: 100%;
     }
+}
 
-    .hideOnMobile {
-        display: none;
-    }
+.home_folio_list {
+    float: none !important;
+}
+
+/* END MOBILE NAM DOVERAUT*/
+
+/*BEGIN ZAYAVKA FORM*/
+.zayavkaForm ul {
+    padding: 0;
+}
+
+.zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
+    width: 100%;
+}
+
+.zayavkaForm select {
+    width: 88%; /*width+ padding-left */
+}
+
+/*END ZAYAVKA FORM*/
+
+/* BEGIN MOBILE SERVICES */
+.services li {
+    display: inline-block;
+    vertical-align: top;
+    width: 98%;
+    margin: 0 0 10% 0;
+}
+
+.services span {
+    margin-top: 1%;
+    font-size: 100%;
+    line-height: 100%;
+    text-align: justify;
+}
+
+/* END MOBILE SERVICES */
+
+.orangeButton {
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+footer li {
+    width: 100%;
+}
+
+.hideOnDesktop {
+    display: block;
+}
+
+.hideOnMobile {
+    display: none;
+}
 
 }

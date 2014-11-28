@@ -299,40 +299,110 @@ footer {
 @media (max-width: 768px) {
 
     /**** BEGIN MOBILE PORTFOLIO  *****/
-    .mainPagePortfolio ul {
-        vertical-align: top;
-        list-style: none;
-        margin-bottom: 5px;
-        padding: 0;
+    .mainPagePortfolio {
+        text-align: center;
+        margin-top: 20vw;
     }
 
     .mainPagePortfolio li {
-        width: 38%;
+        width: 70%;
+    }
+
+    .mainPagePortfolio img {
+        width: 100%;
+    }
+
+    .mainPagePortfolio h4 {
+        margin: 10px 0;
+    }
+
+    .mainPagePortfolio li > a {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 84%;
+    }
+
+    .portfolioTag img {
+        height: 16px;
+        width: inherit;
+        position: relative;
+        top: 2px;
+    }
+
+    .portfolioTag > span {
+        margin-right: 10px;
+        font-size: 87%;
+    }
+
+    .orangeButton {
+        background: #fa730e;
+        padding: 14px 14px;
+        color: white !important;
+        font-weight: bold;
+        text-decoration: none !important;
+        border-radius: 5px;
+        font-size: 15px;
+        /* box-shadow: 2px 2px 2px grey; */
         display: inline-block;
-        text-align: left;
-        vertical-align: top;
-        list-style: none;
-        margin: 0 20px 20px 20px;
+    }
+
+    .orangeButton:hover {
+        background: #2763ac;
+        /*box-shadow: 2px 2px 2px grey;*/
+        cursor: pointer;
+
+    }
+
+    .orangeButton:active {
+        position: relative;
+        /*box-shadow: 2px 2px 2px grey;*/
+        top: 2px;
+    }
+
+    .mainPagePortfolio a {
+        display: inline-block;
+    }
+
+    .goToPortfolio {
+        margin: 0 0 20px 0;
     }
 
     /* END MOBILE PORTFOLIO */
+    /*BEGIN MOBILE NAM DOVERAYUT*/
+    .namDoverayut {
+        text-align: center !important;
+    }
+
+    .home_folio_list {
+        float: none !important;
+        margin: 0 10% 5% 10%;
+    }
+
+    .home_folio_box {
+        overflow: hidden;
+        display: block;
+        float: none !important;
+        height: inherit;
+        width: 100%;
+    }
+
+    /* END MOBILE NAM DOVERAUT*/
     /* BEGIN MOBILE SERVICES */
     .services li {
         display: inline-block;
         vertical-align: top;
-        width: 100%;
+        width: 97%;
         margin: 0 0 10% 0;
     }
 
     .services span {
         margin-top: 1%;
-        font-size: 119%;
-        line-height: 180%;
+        font-size: 100%;
+        line-height: 100%;
         text-align: justify;
     }
 
     /* END MOBILE SERVICES */
-    /*BEGIN MOBILE NAM DOVERAYUT*/
     /*BEGIN MOBILE BLOG*/
     .blog li {
         vertical-align: top;
@@ -343,6 +413,42 @@ footer {
     }
 
     /*END MOBILE BLOG*/
+    /*BEGIN ZAYAVKA FORM*/
+    .zayavkaForm ul {
+        padding: 0;
+    }
+
+    .zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
+        width: 100%;
+    }
+
+    .zayavkaForm select {
+        width: 88%; /*width+ padding-left */
+    }
+
+    /*END ZAYAVKA FORM*/
+    /*BEGIN CHTO DAST RAZRABOTKA*/
+    .razrabotkaHeader p {
+        font-size: 14px;
+        line-height: 1em;
+    }
+
+    /*END CHTO DAST RAZRABOTKA*/
+    footer li {
+        width: 100%;
+    }
+
+    .hideOnDesktop {
+        display: block;
+    }
+
+    .centerOnMobile {
+        text-align: center !important;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
 
 }
 

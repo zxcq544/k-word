@@ -592,7 +592,7 @@ footer {
         overflow: hidden;
         display: block;
         float: none !important;
-        height: 107vw;
+        height: inherit;
         width: 100%;
     }
 
