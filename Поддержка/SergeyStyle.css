@@ -71,7 +71,7 @@
 
 .podderjkaHeader p {
     text-indent: 2vw;
-    font-size: 1.2vw;
+    font-size: 14px;
 }
 
 .podderjkaHeaderLeft {
@@ -479,6 +479,9 @@ footer {
 /****** MOBILE 768 *******/
 
 @media (max-width: 768px) {
+    .centerOnMobile {
+        text-align: center !important;
+    }
 
     .wrap_box {
         display: block;
@@ -506,7 +509,7 @@ footer {
 
     .podderjkaHeader p {
         text-indent: 2vw;
-        font-size: 1em;
+        font-size: 14px;
         text-align: justify;
     }
 
@@ -521,6 +524,12 @@ footer {
     }
 
     /*END MOBILE PODDERJKA SAITA 24 CHASA*/
+    /*BEGIN MOBILE ABOUT US*/
+    .prichinTable img {
+        max-width: inherit !important;
+
+    }
+    /*END MOBILE ABOUT US*/
     /*BEGIN TARIFY I CENY*/
     .orangeButton {
         background: #fa730e;
@@ -560,61 +569,57 @@ footer {
         height: inherit;
         width: 100%;
     }
-}
 
-.home_folio_list {
-    float: none !important;
-}
+    .home_folio_list {
+        float: none !important;
+    }
 
-/* END MOBILE NAM DOVERAUT*/
+    /* END MOBILE NAM DOVERAUT*/
+    /*BEGIN ZAYAVKA FORM*/
+    .zayavkaForm ul {
+        padding: 0;
+    }
 
-/*BEGIN ZAYAVKA FORM*/
-.zayavkaForm ul {
-    padding: 0;
-}
+    .zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
+        width: 100%;
+    }
 
-.zayavkaForm input, .zayavkaForm textarea, .zayavkaForm select, .inputWhiteBg {
-    width: 100%;
-}
+    .zayavkaForm select {
+        width: 88%; /*width+ padding-left */
+    }
 
-.zayavkaForm select {
-    width: 88%; /*width+ padding-left */
-}
+    /*END ZAYAVKA FORM*/
+    /* BEGIN MOBILE SERVICES */
+    .services li {
+        display: inline-block;
+        vertical-align: top;
+        width: 98%;
+        margin: 0 0 10% 0;
+    }
 
-/*END ZAYAVKA FORM*/
+    .services span {
+        margin-top: 1%;
+        font-size: 100%;
+        line-height: 100%;
+        text-align: justify;
+    }
 
-/* BEGIN MOBILE SERVICES */
-.services li {
-    display: inline-block;
-    vertical-align: top;
-    width: 98%;
-    margin: 0 0 10% 0;
-}
+    /* END MOBILE SERVICES */
+    .orangeButton {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
 
-.services span {
-    margin-top: 1%;
-    font-size: 100%;
-    line-height: 100%;
-    text-align: justify;
-}
+    footer li {
+        width: 100%;
+    }
 
-/* END MOBILE SERVICES */
+    .hideOnDesktop {
+        display: block;
+    }
 
-.orangeButton {
-    padding: 10px 10px;
-    font-size: 14px;
-}
-
-footer li {
-    width: 100%;
-}
-
-.hideOnDesktop {
-    display: block;
-}
-
-.hideOnMobile {
-    display: none;
-}
+    .hideOnMobile {
+        display: none;
+    }
 
 }
