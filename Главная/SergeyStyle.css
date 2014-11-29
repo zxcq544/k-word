@@ -403,6 +403,12 @@ footer {
     }
 
     /* END MOBILE SERVICES */
+    /*BEGIN MOBILE ABOUT US*/
+    .prichinTable img {
+        max-width: inherit !important;
+
+    }
+    /*END MOBILE ABOUT US*/
     /*BEGIN MOBILE BLOG*/
     .blog li {
         vertical-align: top;

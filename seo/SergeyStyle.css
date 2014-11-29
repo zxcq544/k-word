@@ -224,7 +224,7 @@
 
 .tarifPrice {
     display: table;
-    margin: 3% auto 1% auto;
+    margin: 1vw auto 1% auto;
 }
 
 .tarifPrice span {
@@ -312,6 +312,10 @@
 
 .buttonsInCenter1 {
     padding: 0.6% 1.1%;
+}
+
+.buttonsInCenter2 {
+    padding: 1.2% 3.4%;
 }
 
 /*END 2 ORANGE BUTTONS IN CENTER*/
@@ -459,6 +463,7 @@
 
 .iconLink {
     height: 40px;
+    font-size: 1.2vw;
 }
 
 .iconLink2 {
@@ -566,6 +571,13 @@ footer {
     }
 
     /* END MOBILE PORTFOLIO */
+    /*BEGIN MOBILE ABOUT US*/
+    .prichinTable img {
+        max-width: inherit !important;
+
+    }
+
+    /*END MOBILE ABOUT US*/
     /* BEGIN MOBILE SERVICES */
     .services li {
         display: inline-block;
@@ -607,17 +619,41 @@ footer {
     }
 
     /*END MOBILE USPESHNIE POZICII NASHIH KLIENTOV*/
+    /*BEGIN MOBILE NAM DOVERAYUT*/
+    .namDoverayut {
+        text-align: center !important;
+    }
+
+    .home_folio_list {
+        float: none !important;
+        margin: 0 10% 5% 10%;
+    }
+
+    .home_folio_box {
+        overflow: hidden;
+        display: block;
+        float: none !important;
+        height: inherit;
+        width: 100%;
+    }
+
+    /* END MOBILE NAM DOVERAUT*/
     /*BEGIN MOBILE TARIFY I CENY*/
     .tarif li {
         width: 98%;
     }
 
+    .iconLink {
+        height: 40px;
+        font-size: 16px;
+    }
+
     .iconTarifLink2 {
-        top: 0;
+        top: -21%;
     }
 
     .iconTarifLink3 {
-        top: 8%;
+        top: -13%;
     }
 
     .orangeButton {
