@@ -33,6 +33,10 @@
     display: block;
 }
 
+.hideOnDesktop {
+    display: none;
+}
+
 /**********  MAIN PAGE  *************/
 
 /*BEGIN CHTO DAST RAZRABOTKA SAITA*/
@@ -578,6 +582,33 @@ footer {
     }
 
     /* END MOBILE PORTFOLIO */
+    /*BEGIN MOBILE VARIANTY SAITA*/
+    .mobileVariantySaita span, .mobileVariantySaita a{
+        display: block;
+    }
+
+    .mobileVariantySaita div{
+        margin: 2vw 2vw;
+        width: 39vw;
+    }
+
+    .mobileVariantySaitaType{
+        background-color: #e6e6e6;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 4vw;
+    }
+
+    .mobileVariantySaitaPrice{
+        background-color: #ececec;
+        font-size: 14px;
+        padding: 4vw;
+    }
+
+    .small{
+        padding: 5px;
+    }
+    /*END MOBILE VARIANTY SAITA*/
     /*BEGIN MOBILE NAM DOVERAYUT*/
     .namDoverayut {
         text-align: center !important;
@@ -679,7 +710,7 @@ footer {
 
 /*HIDE LAST ELEMENT FROM NAM DOVERAYUT*/
 @media (max-width: 1023px) {
-    .hideOnMobile:last-child {
+    .home_folio_list:last-child {
         display: none;
     }
 }

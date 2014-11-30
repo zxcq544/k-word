@@ -475,7 +475,7 @@ footer {
 
 /*HIDE LAST ELEMENT FROM NAM DOVERAYUT*/
 @media (max-width: 1023px) {
-    .hideOnMobile:last-child {
+    .home_folio_list:last-child {
         display: none;
     }
 }

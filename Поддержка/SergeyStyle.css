@@ -556,6 +556,34 @@ footer {
         top: 2px;
     }
 
+    /*BEGIN MOBILE VARIANTY SAITA*/
+    .mobileTarifBlock span, .mobileTarifBlock a{
+        display: block;
+    }
+
+    .mobileTarifBlock div{
+        margin: 2vw 2vw;
+        width: 39vw;
+    }
+
+    .mobileTarifType {
+        background-color: #e6e6e6;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 4vw;
+    }
+
+    .mobileTarifPrice {
+        background-color: #ececec;
+        font-size: 14px;
+        padding: 4vw;
+    }
+
+    .small{
+        padding: 5px;
+    }
+    /*END MOBILE VARIANTY SAITA*/
+
     /*END TARIFY I CENY*/
     /*BEGIN MOBILE NAM DOVERAYUT*/
     .namDoverayut {
@@ -622,4 +650,11 @@ footer {
         display: none;
     }
 
+}
+
+/*HIDE LAST ELEMENT FROM NAM DOVERAYUT*/
+@media (max-width: 1023px) {
+    .home_folio_list:last-child {
+        display: none;
+    }
 }
