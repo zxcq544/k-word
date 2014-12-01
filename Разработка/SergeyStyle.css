@@ -113,8 +113,8 @@
 
 .orangeButton:hover {
     background: #2763ac;
-    /*box-shadow: 2px 2px 2px grey;*/
     cursor: pointer;
+    /*box-shadow: 2px 2px 2px grey;*/
 
 }
 
@@ -341,7 +341,8 @@
 }
 
 .orangeButtonWhiteBorder:hover {
-    background-color: orange !important;
+    background: #2763ac !important;
+    cursor: pointer;
 }
 
 .orangeButtonWhiteBorder:active {
@@ -494,6 +495,11 @@ footer {
     border-radius: 5px;
     background-color: #e65500;
     margin: 0 10px;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
 }
 
 .footerContactIcons {
@@ -506,6 +512,11 @@ footer {
     text-decoration: none !important;
     vertical-align: middle;
     width: 43px;
+}
+
+.footerIcon:hover {
+    background-color: #2763ac;
+    cursor: pointer;
 }
 
 /****** MOBILE 768 *******/
@@ -562,9 +573,8 @@ footer {
 
     .orangeButton:hover {
         background: #2763ac;
-        /*box-shadow: 2px 2px 2px grey;*/
         cursor: pointer;
-
+        /*box-shadow: 2px 2px 2px grey;*/
     }
 
     .orangeButton:active {
@@ -583,31 +593,32 @@ footer {
 
     /* END MOBILE PORTFOLIO */
     /*BEGIN MOBILE VARIANTY SAITA*/
-    .mobileVariantySaita span, .mobileVariantySaita a{
+    .mobileVariantySaita span, .mobileVariantySaita a {
         display: block;
     }
 
-    .mobileVariantySaita div{
+    .mobileVariantySaita div {
         margin: 2vw 2vw;
         width: 39vw;
     }
 
-    .mobileVariantySaitaType{
+    .mobileVariantySaitaType {
         background-color: #e6e6e6;
         font-size: 16px;
         font-weight: bold;
         padding: 4vw;
     }
 
-    .mobileVariantySaitaPrice{
+    .mobileVariantySaitaPrice {
         background-color: #ececec;
         font-size: 14px;
         padding: 4vw;
     }
 
-    .small{
+    .small {
         padding: 5px;
     }
+
     /*END MOBILE VARIANTY SAITA*/
     /*BEGIN MOBILE NAM DOVERAYUT*/
     .namDoverayut {

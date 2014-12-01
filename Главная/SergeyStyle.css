@@ -282,6 +282,11 @@ footer {
     margin: 0 10px;
 }
 
+.footerIcon:hover {
+    background-color: #2763ac;
+    cursor: pointer;
+}
+
 .footerContactIcons {
     color: #fff !important;
     display: table-cell;

@@ -421,7 +421,8 @@
 }
 
 .orangeButtonWhiteBorder:hover {
-    background-color: orange !important;
+    background: #2763ac !important;
+    cursor: pointer;
 }
 
 .orangeButtonWhiteBorder:active {
@@ -535,6 +536,11 @@ footer {
     border-radius: 5px;
     background-color: #e65500;
     margin: 0 10px;
+}
+
+.footerIcon:hover {
+    background-color: #2763ac;
+    cursor: pointer;
 }
 
 .footerContactIcons {
