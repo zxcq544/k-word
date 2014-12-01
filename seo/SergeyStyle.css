@@ -32,6 +32,10 @@
 /**********  SEO PAGE  *************/
 
 /********** BEGIN CHTO DAST PRODVIJENIE HEADER  *************/
+.chtoDastProdvijenie{
+    margin-top: 6%;
+}
+
 .prodvijenieHeader {
     margin-bottom: 5%;
 }
@@ -68,7 +72,7 @@
     padding-top: 3%;
     padding-bottom: 2%;
     margin-bottom: 2%;
-    width: 100%;
+    width: auto;
     display: block;
     background-color: white;
     border: 1px solid lightgrey;
@@ -610,10 +614,7 @@ footer {
     }
 
     /*END MOBILE BLOG*/
-    .hideOnMobile {
-        display: none;
 
-    }
 
     /*BEGIN MOBILE USPESHNIE POZICII NASHIH KLIENTOV*/
     .seoTableBlock {
@@ -630,17 +631,16 @@ footer {
         text-align: center !important;
     }
 
-    .home_folio_list {
-        float: none !important;
-        margin: 0 10% 5% 10%;
-    }
-
     .home_folio_box {
         overflow: hidden;
         display: block;
         float: none !important;
         height: inherit;
         width: 100%;
+    }
+
+    .home_folio_list {
+        float: none !important;
     }
 
     /* END MOBILE NAM DOVERAUT*/
@@ -708,6 +708,14 @@ footer {
     /*END ZAYAVKA FORM*/
     footer li {
         width: 100%;
+    }
+
+    .hideOnMobile {
+        display: none !important;
+    }
+
+    .centerOnMobile {
+        text-align: center !important;
     }
 
 }

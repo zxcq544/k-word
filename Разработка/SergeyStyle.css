@@ -625,17 +625,16 @@ footer {
         text-align: center !important;
     }
 
-    .home_folio_list {
-        float: none !important;
-        margin: 0 10% 5% 10%;
-    }
-
     .home_folio_box {
         overflow: hidden;
         display: block;
         float: none !important;
         height: inherit;
         width: 100%;
+    }
+
+    .home_folio_list {
+        float: none !important;
     }
 
     /* END MOBILE NAM DOVERAUT*/
